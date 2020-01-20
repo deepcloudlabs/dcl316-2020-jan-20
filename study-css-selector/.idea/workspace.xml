@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a70e3a9-3c23-4fa9-a532-61948476f36b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/study-css-selector.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fext.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fext.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fext.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lost.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pptx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xlsx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-html-content-model/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-html-content-model/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-html-content-model/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-html5-form-control-tags/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-html5-form-control-tags/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Sass File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1WeikscJsmD7Uzf4spohwVq98ff" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a70e3a9-3c23-4fa9-a532-61948476f36b" name="Default Changelist" comment="" />
+      <created>1579516607810</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579516607810</updated>
+      <workItem from="1579516608910" duration="4679000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
