@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a70e3a9-3c23-4fa9-a532-61948476f36b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/study-css-selector.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fext.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fext.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fext.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lost.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pptx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xlsx.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../study-html-content-model/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files.html" beforeDir="false" afterPath="$PROJECT_DIR$/files.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study-html-content-model/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-html-content-model/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study-html5-form-control-tags/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-html5-form-control-tags/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -83,14 +61,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579516607810</updated>
-      <workItem from="1579516608910" duration="4679000" />
+      <workItem from="1579516608910" duration="5482000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1579521989898</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579521989898</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1216" y="54" key="CommitChangelistDialog2" timestamp="1579521989312">
+      <screen x="-1280" y="54" width="853" height="683" />
+    </state>
+    <state x="-1216" y="54" key="CommitChangelistDialog2/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579521989312" />
+    <state x="-1260" y="133" key="Vcs.Push.Dialog.v2" timestamp="1579521991542">
+      <screen x="-1280" y="54" width="853" height="683" />
+    </state>
+    <state x="-1260" y="133" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579521991542" />
   </component>
 </project>
