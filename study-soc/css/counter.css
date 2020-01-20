@@ -1,0 +1,10 @@
+div {
+    font-family: Calibri;
+    text-shadow: 2px 2px 2px darkgray;
+    font-size: 18pt;
+}
+
+#counter {
+    background-color: lightgoldenrodyellow;
+    border: solid red 1px;
+}
