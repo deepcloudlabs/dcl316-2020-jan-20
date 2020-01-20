@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8794acc-a016-4c6a-b4d0-95eac446bbf2" name="Default Changelist" comment="" />
+    <list default="true" id="a8794acc-a016-4c6a-b4d0-95eac446bbf2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../study-html-content-model/.idea/study-html-content-model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +22,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\stage\tmp\dcl-316\2020\jan-20\study-soc\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1WeMYhTEvO6A3kSIOGo6OB9sRrT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,6 +39,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -55,10 +67,35 @@
       <updated>1579505656198</updated>
       <workItem from="1579505657358" duration="3082000" />
       <workItem from="1579511150820" duration="174000" />
+      <workItem from="1579511328391" duration="135000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1579511426023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579511426023</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1216" y="54" key="CommitChangelistDialog2" timestamp="1579511425526">
+      <screen x="-1280" y="54" width="853" height="683" />
+    </state>
+    <state x="-1216" y="54" key="CommitChangelistDialog2/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579511425526" />
+    <state x="-1260" y="133" key="Vcs.Push.Dialog.v2" timestamp="1579511427862">
+      <screen x="-1280" y="54" width="853" height="683" />
+    </state>
+    <state x="-1260" y="133" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579511427862" />
   </component>
 </project>
