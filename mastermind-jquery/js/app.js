@@ -1,12 +1,22 @@
 let game = new GameViewModel();
-
+// setInterval(()=>{ game.play(game.secret); },1)
 $(document).ready(() => {
     let playBtn = $("#playBtn");
     let guess = $("#guess");
-    let tries = $("#tries")
-    let moves = $("#moves")
-    let pbCounter = $("#pb-tries")
+    let tries = $("#tries");
+    let moves = $("#moves");
+    let pbCounter = $("#pb-tries");
+    let total = $("#total");
+    let wins = $("#wins");
+    let loses = $("#loses");
+    let avgMoves = $("#avgMoves");
+    let avgWinsTime = $("#avgWinsTime");
     let updateView = (model) => {
+        total.text(model.total);
+        wins.text(model.wins);
+        loses.text(model.loses);
+        avgMoves.text(model.avgMoves);
+        avgWinsTime.text(model.avgWinsTime);
         tries.text(model.tries);
         pbCounter.attr("aria-valuenow", model.counter);
         let cssWidth = (5 * model.counter) / 3 + "%";
