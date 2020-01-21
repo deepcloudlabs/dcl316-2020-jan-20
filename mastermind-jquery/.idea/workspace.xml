@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64aef3e3-b6bf-456d-adcb-9fe2dbfc3049" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/mastermind-jquery.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lib/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lib/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/number-util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-html-content-model/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mastermind-purejs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mastermind-purejs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-css-selector/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-css-selector/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-html-content-model/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-html-content-model/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-html5-form-control-tags/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-html5-form-control-tags/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-javascript/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-javascript/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-jquery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-jquery/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-jquery/movies.html" beforeDir="false" afterPath="$PROJECT_DIR$/../study-jquery/movies.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1Whj8C8MgNNNKxoEPrHlhnhNZf7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\stage\tmp\dcl-316\2020\jan-20\mastermind-jquery" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64aef3e3-b6bf-456d-adcb-9fe2dbfc3049" name="Default Changelist" comment="" />
+      <created>1579608558485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579608558485</updated>
+      <workItem from="1579608559561" duration="2733000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
