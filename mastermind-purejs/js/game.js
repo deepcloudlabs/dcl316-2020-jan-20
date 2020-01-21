@@ -11,10 +11,15 @@ class GameViewModel {
         this.tries = 0;
         this.moves = [];
         this.counter = 60;
+        this.play = this.play.bind(this);
+        this.initGame = this.initGame.bind(this);
+        this.countDown = this.countDown.bind(this);
+        this.evaluate = this.evaluate.bind(this);
     }
 
     play(guess) {
-        if (guess === this.secret) {
+        this.tries++;
+        if (guess == this.secret) {
             this.initGame();
             this.moves.push(new Move(guess, "You win!"));
         } else {
@@ -61,5 +66,6 @@ class GameViewModel {
         let message = "";
         if (partialMatch > 0) message = `-${partialMatch}`;
         if (perfectMath > 0) message += `+${perfectMath}`;
+        return message;
     }
 }
