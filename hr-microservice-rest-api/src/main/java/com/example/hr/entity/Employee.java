@@ -1,10 +1,13 @@
 package com.example.hr.entity;
 
+import org.hibernate.annotations.DynamicUpdate;
+
 import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
 @Table(name = "employees")
+@DynamicUpdate
 public class Employee {
     @Id
     private String identity;
