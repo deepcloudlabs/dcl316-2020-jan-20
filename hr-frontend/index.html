@@ -127,7 +127,8 @@
             </div>
         </div>
     </div>
-    <div class="panel panel-success">
+    <div data-bind="visible: employees().length > 0"
+         class="panel panel-success">
         <div class="panel-heading">
             <h3 class="panel-title">Employees</h3>
         </div>
@@ -147,7 +148,8 @@
                     <th>Operations</th>
                 </tr>
                 </thead>
-                <tbody data-bind="foreach: {data: employees, as: 'emp'}">
+                <tbody>
+                <!-- ko foreach: {data: employees, as: 'emp'} -->
                 <tr data-bind="click: $root.copyRow">
                     <td data-bind="text: $index()+1"></td>
                     <td><img class="thumbnail"
@@ -165,6 +167,13 @@
                                 class="btn btn-danger">Delete
                         </button>
                     </td>
+                </tr>
+                <!-- /ko -->
+                <tr>
+                    <td colspan="3"></td>
+                    <td data-bind="text: avgSalary"></td>
+                    <th data-bind="text: totalSalary"></th>
+                    <td colspan="5"></td>
                 </tr>
                 </tbody>
             </table>

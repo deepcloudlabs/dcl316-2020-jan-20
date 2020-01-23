@@ -5,6 +5,15 @@ class HrViewModel {
         this.fileData = ko.observable({
             dataUrl: ko.observable(AppConfig.NO_IMAGE)
         });
+        this.totalSalary = ko.computed(() =>
+            this.employees().map(emp => emp.salary)
+                .reduce(
+                    (sum, salary) => sum + salary, 0
+                )
+        );
+        this.avgSalary = ko.computed(() =>
+            this.totalSalary() / this.employees().length
+        )
         //region method bindings
         this.add = this.add.bind(this);
         this.remove = this.remove.bind(this);
