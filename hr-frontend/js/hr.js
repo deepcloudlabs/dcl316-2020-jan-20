@@ -7,12 +7,18 @@ class HrViewModel {
         });
         //region method bindings
         this.add = this.add.bind(this);
+        this.remove = this.remove.bind(this);
         this.update = this.update.bind(this);
         this.find = this.find.bind(this);
         this.findAll = this.findAll.bind(this);
         this.insertFile = this.insertFile.bind(this);
         this.dragover = this.dragover.bind(this);
         //endregion
+    }
+
+    copyRow = (emp) => {
+        this.employee.update(emp);
+        this.fileData().dataUrl(emp.photo);
     }
 
     add() {
@@ -55,6 +61,33 @@ class HrViewModel {
 
     find() {
         fetch(`${AppConfig.BASE_URL}/employees/${this.employee.identity()}`)
+            .then(res => res.json())
+            .then(emp => {
+                this.fileData().dataUrl(toSrcImage(emp.photo));
+                this.employee.update(emp);
+            })
+    }
+
+    removeAtRow = (emp) => {
+        fetch(`${AppConfig.BASE_URL}/employees/${emp.identity}`,
+            {
+                method: 'DELETE'
+            })
+            .then(res => res.json())
+            .then(emp => {
+                this.fileData().dataUrl(toSrcImage(emp.photo));
+                this.employee.update(emp);
+                let emps = this.employees()
+                    .filter(row => emp.identity != row.identity);
+                this.employees(emps);
+            })
+    }
+
+    remove() {
+        fetch(`${AppConfig.BASE_URL}/employees/${this.employee.identity()}`,
+            {
+                method: 'DELETE'
+            })
             .then(res => res.json())
             .then(emp => {
                 this.fileData().dataUrl(toSrcImage(emp.photo));

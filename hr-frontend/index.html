@@ -115,7 +115,9 @@
                 <button data-bind="click : update"
                         class="btn btn-warning">Update
                 </button>
-                <button class="btn btn-danger">Delete</button>
+                <button data-bind="click : remove"
+                        class="btn btn-danger">Delete
+                </button>
                 <button data-bind="click : find"
                         class="btn btn-success">Find
                 </button>
@@ -146,7 +148,7 @@
                 </tr>
                 </thead>
                 <tbody data-bind="foreach: {data: employees, as: 'emp'}">
-                <tr>
+                <tr data-bind="click: $root.copyRow">
                     <td data-bind="text: $index()+1"></td>
                     <td><img class="thumbnail"
                              style="width: 32px;"
@@ -159,7 +161,9 @@
                     <td data-bind="text: emp.birthYear"></td>
                     <td data-bind="text: emp.department"></td>
                     <td>
-                        <button class="btn btn-danger">Delete</button>
+                        <button data-bind="click: $root.removeAtRow"
+                                class="btn btn-danger">Delete
+                        </button>
                     </td>
                 </tr>
                 </tbody>
