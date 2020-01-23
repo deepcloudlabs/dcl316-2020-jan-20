@@ -15,7 +15,7 @@
     <script type="text/javascript" src="js/lib/toastr.min.js"></script>
     <script type="text/javascript" src="js/lib/knockout-3.4.2.debug.js"></script>
     <script type="text/javascript" src="js/lib/knockout-localization.js"></script>
-    <script type="text/javascript" src="js/lib/knockout.validation.min.js"></script>
+    <script type="text/javascript" src="js/lib/knockout.validation.js"></script>
     <script type="text/javascript" src="js/lib/ko-file.js"></script>
     <script type="text/javascript" src="js/hr-config.js"></script>
     <script type="text/javascript" src="js/hr-util.js"></script>
@@ -109,16 +109,16 @@
                 </div>
             </div>
             <div class="form-group">
-                <button data-bind="click : add"
+                <button data-bind="click : add, disable: !employee.isEmployeeValid()"
                         class="btn btn-info">Add
                 </button>
-                <button data-bind="click : update"
+                <button data-bind="click : update, disable: !employee.isEmployeeValid()"
                         class="btn btn-warning">Update
                 </button>
-                <button data-bind="click : remove"
+                <button data-bind="click : remove, disable: !employee.identity.isValid()"
                         class="btn btn-danger">Delete
                 </button>
-                <button data-bind="click : find"
+                <button data-bind="click : find, disable: !employee.identity.isValid()"
                         class="btn btn-success">Find
                 </button>
                 <button data-bind="click : findAll"

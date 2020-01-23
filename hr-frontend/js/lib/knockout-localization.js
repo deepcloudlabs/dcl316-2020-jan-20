@@ -20,7 +20,9 @@ function knockoutLocalize(lang) {
             phoneUS: 'Lütfen geçerli bir telefon numarası giriniz.',
             equal: 'Değerler eşit olmalıdır.',
             notEqual: 'Lütfen farklı bir değer seçiniz.',
-            unique: 'Lütfen değerin farklı olduğunu kontrol ediniz.'
+            unique: 'Lütfen değerin farklı olduğunu kontrol ediniz.',
+            iban: "Geçerli bir hesap numarası giriniz.",
+            tcKimlikNo: "Geçerli bir kimlik numarası giriniz."
         });
     } else {
         ko.validation.localize({
@@ -39,7 +41,9 @@ function knockoutLocalize(lang) {
             phoneUS: 'Please specify a valid phone number',
             equal: 'Values must equal',
             notEqual: 'Please choose another value.',
-            unique: 'Please make sure the value is unique.'
+            unique: 'Please make sure the value is unique.',
+            iban: 'This is not a valid iban.',
+            tcKimlikNo: "Enter a valid identity no."
         });
     }
 }
