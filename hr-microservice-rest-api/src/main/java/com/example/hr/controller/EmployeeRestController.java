@@ -7,12 +7,13 @@ import org.springframework.web.context.annotation.RequestScope;
 
 import java.util.List;
 
+/**
+ * @author Binnur Kurt <binnur.kurt@gmail.com>
+ * @url http://localhost:8001/hr/api/v1/employees
+ */
 @RestController
 @RequestScope
-// http://localhost:8001/hr/api/v1/employees
-//                           /\      /\
-//  application.properties = |       |
-@RequestMapping("/employees") // ----|
+@RequestMapping("employees")
 @CrossOrigin
 public class EmployeeRestController {
     private EmployeeService employeeSrv;
@@ -21,14 +22,12 @@ public class EmployeeRestController {
         this.employeeSrv = employeeSrv;
     }
 
-    // http://localhost:8001/hr/api/v1/employees
-//                          ?page=2&size=10
+    /**
+     * @url GET http://localhost:8001/hr/api/v1/employees?page=2&size=10
+     */
     @GetMapping(params = {"page", "size"})
-    public List<Employee> findAllEmployees(
-            @RequestParam int page,
-            @RequestParam int size) {
-        return employeeSrv.findAllEmployees(
-                page, size);
+    public List<Employee> findAllEmployees(@RequestParam int page, @RequestParam int size) {
+        return employeeSrv.findAllEmployees(page, size);
     }
 
     @GetMapping("{identity}")
@@ -51,7 +50,3 @@ public class EmployeeRestController {
         employeeSrv.updateEmployee(employee);
     }
 }
-
-
-
-

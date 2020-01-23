@@ -17,9 +17,12 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import javax.servlet.ServletContext;
 import java.util.Date;
 
-// http://localhost:8001/hr/api/v1/swagger-ui.html
+/**
+ * @author Binnur Kurt <binnur.kurt@gmail.com>
+ */
 @Configuration
 @EnableSwagger2
+// http://localhost:8001/hr/api/v1/swagger-ui.html
 public class SwaggerConfig implements WebMvcConfigurer {
     @Value("${apiMajorVersion}")
     private String apiMajorVersion;

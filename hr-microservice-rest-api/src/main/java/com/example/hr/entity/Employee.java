@@ -5,6 +5,9 @@ import org.hibernate.annotations.DynamicUpdate;
 import javax.persistence.*;
 import java.util.Objects;
 
+/**
+ * @author Binnur Kurt <binnur.kurt@gmail.com>
+ */
 @Entity
 @Table(name = "employees")
 @DynamicUpdate
@@ -26,6 +29,7 @@ public class Employee {
     public Employee() {
     }
 
+    //region setters/getters
     public String getIdentity() {
         return identity;
     }
@@ -89,7 +93,9 @@ public class Employee {
     public void setDepartment(Department department) {
         this.department = department;
     }
+    //endregion
 
+    //region equals/hashCode
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -103,6 +109,9 @@ public class Employee {
         return Objects.hash(identity);
     }
 
+    //endregion
+
+    //region toString
     @Override
     public String toString() {
         return "Employee{" +
@@ -114,4 +123,5 @@ public class Employee {
                 ", department=" + department +
                 '}';
     }
+    //endregion
 }

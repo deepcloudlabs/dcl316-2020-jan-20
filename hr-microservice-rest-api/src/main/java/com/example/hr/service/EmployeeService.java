@@ -3,14 +3,16 @@ package com.example.hr.service;
 import com.example.hr.entity.Employee;
 import com.example.hr.repository.EmployeeRepository;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.jpa.repository.Lock;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.LockModeType;
 import java.util.List;
-import java.util.Objects;
 
+import static java.util.Objects.nonNull;
+
+/**
+ * @author Binnur Kurt <binnur.kurt@gmail.com>
+ */
 @Service
 public class EmployeeService {
     private EmployeeRepository employeeRepository;
@@ -20,23 +22,18 @@ public class EmployeeService {
     }
 
     public Employee findByIdentity(String identity) {
-        return employeeRepository.findById(identity)
-                .orElseThrow(() -> new IllegalArgumentException(
-                        "Cannot find employee!"));
+        return employeeRepository.findById(identity).orElseThrow(() -> new IllegalArgumentException("Cannot find employee!"));
     }
 
     public List<Employee> findAllEmployees(int page, int size) {
-        PageRequest pageable = PageRequest.of(page, size);
-        return employeeRepository.findAll(pageable)
-                .getContent();
+        return employeeRepository.findAll(PageRequest.of(page, size)).getContent();
     }
 
     @Transactional
     public void createEmployee(Employee employee) {
         String identity = employee.getIdentity();
         if (employeeRepository.existsById(identity)) {
-            throw new IllegalArgumentException(
-                    "Employee already exists!");
+            throw new IllegalArgumentException("Employee already exists!");
         }
         employeeRepository.save(employee);
     }
@@ -45,13 +42,10 @@ public class EmployeeService {
     public void updateEmployee(Employee employee) {
         String identity = employee.getIdentity();
         if (!employeeRepository.existsById(identity)) {
-            throw new IllegalArgumentException(
-                    "Employee does not exist!");
+            throw new IllegalArgumentException("Employee does not exist!");
         }
-        Employee managed =
-                employeeRepository.findById(identity).get();
-        if (Objects.nonNull(employee.getPhoto()))
-            managed.setPhoto(employee.getPhoto());
+        Employee managed = employeeRepository.findById(identity).get();
+        if (nonNull(employee.getPhoto())) managed.setPhoto(employee.getPhoto());
         managed.setDepartment(employee.getDepartment());
         managed.setFulltime(employee.isFulltime());
         managed.setSalary(employee.getSalary());
@@ -59,12 +53,8 @@ public class EmployeeService {
     }
 
     @Transactional
-    @Lock(LockModeType.WRITE)
     public Employee removeByIdentity(String identity) {
-        Employee employee =
-                employeeRepository.findById(identity)
-                        .orElseThrow(() -> new IllegalArgumentException(
-                                "Cannot find employee!"));
+        Employee employee = employeeRepository.findById(identity).orElseThrow(() -> new IllegalArgumentException("Cannot find employee!"));
         employeeRepository.delete(employee);
         return employee;
     }
