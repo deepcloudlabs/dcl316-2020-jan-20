@@ -1,8 +1,12 @@
 package com.example.hr.entity;
 
+import com.example.hr.validation.Iban;
+import com.example.hr.validation.TcKimlikNo;
 import org.hibernate.annotations.DynamicUpdate;
 
 import javax.persistence.*;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.Size;
 import java.util.Objects;
 
 /**
@@ -13,10 +17,14 @@ import java.util.Objects;
 @DynamicUpdate
 public class Employee {
     @Id
+    @TcKimlikNo
     private String identity;
     @Column(name = "full_name")
+    @Size(min = 3)
     private String fullname;
+    @Min(3000)
     private double salary;
+    @Iban
     private String iban;
     @Lob
     @Column(columnDefinition = "longblob")
