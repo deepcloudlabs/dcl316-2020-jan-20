@@ -19,7 +19,7 @@
     <script type="text/javascript" src="js/lib/ko-file.js"></script>
     <script type="text/javascript" src="js/hr-config.js"></script>
     <script type="text/javascript" src="js/hr-util.js"></script>
-    <script src="js/employee.js"></script>
+    <script type="text/javascript" src="js/employee.js"></script>
     <script type="text/javascript" src="js/hr.js"></script>
     <script src="js/app.js"></script>
 </head>
@@ -35,37 +35,23 @@
         <div class="panel-body">
             <div class="form-group">
                 <label for="identityNo">Identity No</label>
-                <input id="identityNo"
-                       data-bind="value: employee.identity"
-                       type="text"
-                       class="form-control"/>
+                <input id="identityNo" data-bind="value: employee.identity" type="text" class="form-control"/>
             </div>
             <div class="form-group">
                 <label for="name">Full Name</label>
-                <input id="name"
-                       data-bind="value: employee.fullname"
-                       type="text"
-                       class="form-control"/>
+                <input id="name" data-bind="value: employee.fullname" type="text" class="form-control"/>
             </div>
             <div class="form-group">
                 <label for="salary">Salary</label>
-                <input id="salary"
-                       data-bind="value: employee.salary"
-                       type="text"
-                       class="form-control"/>
+                <input id="salary" data-bind="value: employee.salary" type="text" class="form-control"/>
             </div>
             <div class="form-group">
                 <label for="iban">Iban</label>
-                <input id="iban"
-                       data-bind="value: employee.iban"
-                       type="text"
-                       class="form-control"/>
+                <input id="iban" data-bind="value: employee.iban" type="text" class="form-control"/>
             </div>
             <div class="form-group">
                 <label for="department">Department</label>
-                <select id="department"
-                        data-bind="value: employee.department"
-                        class="form-control">
+                <select id="department" data-bind="value: employee.department" class="form-control">
                     <option>FINANCE</option>
                     <option>HR</option>
                     <option>IT</option>
@@ -74,10 +60,7 @@
             </div>
             <div class="form-group">
                 <label for="birthYear">Birth Year</label>
-                <input id="birthYear"
-                       data-bind="value: employee.birthYear"
-                       type="text"
-                       class="form-control"/>
+                <input id="birthYear" data-bind="value: employee.birthYear" type="text" class="form-control"/>
             </div>
             <div class="form-group">
                 <div class="checkbox">
@@ -85,50 +68,35 @@
                 </div>
             </div>
             <div class="form-group">
-                <label class="control-label"
-                       for="photo">Photo</label>
-                <img id="photo"
-                     data-bind="attr: {src: fileData().dataUrl}"
-                     class="thumbnail"
-                     style="width: 64px;"/>
+                <label class="control-label" for="photo">Photo</label>
+                <img id="photo" data-bind="attr: {src: fileData().dataUrl}" class="thumbnail" style="width: 64px;"/>
                 <label class="btn btn-info">
-                    <input type="file"
-                           data-bind="fileInput: fileData"
-                           style="display: none;"
-                           class="form-control"/>
+                    <input type="file" data-bind="fileInput: fileData" style="display: none;" class="form-control"/>
                     <span>File</span>
                 </label>
             </div>
             <div class="form-group">
-                <div type="text"
-                     id="filedrag"
-                     data-bind="event: { drop: function (data,e) { $root.insertFile(e,data);},
-	    			     dragover: function(data,e){ $root.dragover(e);}	}"
+                <div type="text" id="filedrag"
+                     data-bind="event: { drop: function (data,e) { $root.insertFile(e,data);}, dragover: function(data,e){ $root.dragover(e);}	}"
                      class="drop-zone">
                     Drop the photo here!
                 </div>
             </div>
             <div class="form-group">
-                <button data-bind="click : add, disable: !employee.isEmployeeValid()"
-                        class="btn btn-info">Add
+                <button data-bind="click : add, disable: !employee.isEmployeeValid()" class="btn btn-info">Add</button>
+                <button data-bind="click : update, disable: !employee.isEmployeeValid()" class="btn btn-warning">
+                    Update
                 </button>
-                <button data-bind="click : update, disable: !employee.isEmployeeValid()"
-                        class="btn btn-warning">Update
+                <button data-bind="click : remove, disable: !employee.identity.isValid()" class="btn btn-danger">
+                    Delete
                 </button>
-                <button data-bind="click : remove, disable: !employee.identity.isValid()"
-                        class="btn btn-danger">Delete
+                <button data-bind="click : find, disable: !employee.identity.isValid()" class="btn btn-success">Find
                 </button>
-                <button data-bind="click : find, disable: !employee.identity.isValid()"
-                        class="btn btn-success">Find
-                </button>
-                <button data-bind="click : findAll"
-                        class="btn btn-success">Find All
-                </button>
+                <button data-bind="click : findAll" class="btn btn-success">Find All</button>
             </div>
         </div>
     </div>
-    <div data-bind="visible: employees().length > 0"
-         class="panel panel-success">
+    <div data-bind="visible: employees().length > 0" class="panel panel-success">
         <div class="panel-heading">
             <h3 class="panel-title">Employees</h3>
         </div>
@@ -152,27 +120,26 @@
                 <!-- ko foreach: {data: employees, as: 'emp'} -->
                 <tr data-bind="click: $root.copyRow">
                     <td data-bind="text: $index()+1"></td>
-                    <td><img class="thumbnail"
-                             style="width: 32px;"
-                             data-bind="attr: {src: emp.photo}"></td>
+                    <td><img class="thumbnail" style="width: 32px;" data-bind="attr: {src: emp.photo}"></td>
                     <td data-bind="text: emp.identity"></td>
                     <td data-bind="text: emp.fullname"></td>
                     <td data-bind="text: emp.salary"></td>
                     <td data-bind="text: emp.iban"></td>
-                    <td data-bind="text: emp.fulltime ? 'yes':'no'"></td>
-                    <td data-bind="text: emp.birthYear"></td>
-                    <td data-bind="text: emp.department"></td>
                     <td>
-                        <button data-bind="click: $root.removeAtRow"
-                                class="btn btn-danger">Delete
-                        </button>
+                        <span class="label label-success" data-bind="visible: emp.fulltime">FULL TIME</span>
+                        <span class="label label-warning" data-bind="visible: !emp.fulltime">PART TIME</span>
+                    </td>
+                    <td data-bind="text: emp.birthYear"></td>
+                    <td><span class="label label-info" data-bind="text: emp.department"/></td>
+                    <td>
+                        <button data-bind="click: $root.removeAtRow" class="btn btn-xs btn-danger">Delete</button>
                     </td>
                 </tr>
                 <!-- /ko -->
                 <tr>
                     <td colspan="3"></td>
-                    <td data-bind="text: avgSalary"></td>
-                    <th data-bind="text: totalSalary"></th>
+                    <td>Average: <span data-bind="text: avgSalary"/></td>
+                    <td>Total: <span data-bind="text: totalSalary"/></td>
                     <td colspan="5"></td>
                 </tr>
                 </tbody>

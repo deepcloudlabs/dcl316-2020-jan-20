@@ -960,7 +960,7 @@
                 total = (total % 97);
             }
         }
-        return total % AppConfig.MODULUS;
+        return total % 97;
     };
 
     kv.rules['iban'] = {

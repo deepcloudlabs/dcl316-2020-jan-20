@@ -28,6 +28,7 @@ class HrViewModel {
     copyRow = (emp) => {
         this.employee.update(emp);
         this.fileData().dataUrl(emp.photo);
+        toastr.success(`${emp.fullname} is copied!`);
     }
 
     add() {
@@ -41,6 +42,16 @@ class HrViewModel {
                 },
                 body: JSON.stringify(emp)
             })
+            .then(res => {
+                if (res.status != 200) return res.json();
+            })
+            .then(res => {
+                if (res == undefined)
+                    toastr.success(`${emp.fullname} is created!`);
+                else if ('errorCode' in res) throw res;
+            }).catch(err => {
+            toastr.error(err.message)
+        });
     }
 
     update() {
@@ -54,6 +65,16 @@ class HrViewModel {
                 },
                 body: JSON.stringify(emp)
             })
+            .then(res => {
+                if (res.status != 200) return res.json();
+            })
+            .then(res => {
+                if (res == undefined)
+                    toastr.success(`${emp.fullname} is updated!`);
+                else if ('errorCode' in res) throw res;
+            }).catch(err => {
+            toastr.error(err.message)
+        });
     }
 
     findAll() {
@@ -63,7 +84,8 @@ class HrViewModel {
                     employees.forEach(
                         emp => emp.photo = toSrcImage(emp.photo)
                     )
-                    this.employees(employees);
+                this.employees(employees);
+                toastr.success(`${employees.length} employees are retrieved from the server.`)
                 }
             )
     }
@@ -71,10 +93,17 @@ class HrViewModel {
     find() {
         fetch(`${AppConfig.BASE_URL}/employees/${this.employee.identity()}`)
             .then(res => res.json())
+            .then(res => {
+                if ('errorCode' in res) throw res; else return res;
+            })
             .then(emp => {
                 this.fileData().dataUrl(toSrcImage(emp.photo));
                 this.employee.update(emp);
+                toastr.success(`${emp.fullname} is retrieved from the server!`);
             })
+            .catch(err => {
+                toastr.error(err.message)
+            });
     }
 
     removeAtRow = (emp) => {
@@ -83,6 +112,9 @@ class HrViewModel {
                 method: 'DELETE'
             })
             .then(res => res.json())
+            .then(res => {
+                if ('errorCode' in res) throw res; else return res;
+            })
             .then(emp => {
                 this.fileData().dataUrl(toSrcImage(emp.photo));
                 this.employee.update(emp);
@@ -90,6 +122,9 @@ class HrViewModel {
                     .filter(row => emp.identity != row.identity);
                 this.employees(emps);
             })
+            .catch(err => {
+                toastr.error(err.message)
+            });
     }
 
     remove() {
@@ -98,10 +133,16 @@ class HrViewModel {
                 method: 'DELETE'
             })
             .then(res => res.json())
+            .then(res => {
+                if ('errorCode' in res) throw res; else return res;
+            })
             .then(emp => {
                 this.fileData().dataUrl(toSrcImage(emp.photo));
                 this.employee.update(emp);
             })
+            .catch(err => {
+                toastr.error(err.message)
+            });
     }
 
     //region drag-and-drop
