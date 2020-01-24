@@ -3,28 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="57181921-046f-4a13-bc5b-0215171671fd" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../study-html-content-model/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/study-jquery.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lib/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lib/jquery-1.11.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mastermind-purejs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mastermind-purejs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study-css-selector/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-css-selector/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study-html-content-model/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-html-content-model/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study-html5-form-control-tags/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-html5-form-control-tags/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study-javascript/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-javascript/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,14 +56,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579603993610</updated>
-      <workItem from="1579603994714" duration="2634000" />
+      <workItem from="1579603994714" duration="4053000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1579607288852</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579607288852</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1216" y="54" key="CommitChangelistDialog2" timestamp="1579607288144">
+      <screen x="-1280" y="54" width="853" height="683" />
+    </state>
+    <state x="-1216" y="54" key="CommitChangelistDialog2/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579607288144" />
+    <state x="-1260" y="133" key="Vcs.Push.Dialog.v2" timestamp="1579607291449">
+      <screen x="-1280" y="54" width="853" height="683" />
+    </state>
+    <state x="-1260" y="133" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579607291449" />
   </component>
 </project>

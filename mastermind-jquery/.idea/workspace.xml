@@ -4,7 +4,6 @@
     <list default="true" id="64aef3e3-b6bf-456d-adcb-9fe2dbfc3049" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../study-html-content-model/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mastermind-purejs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mastermind-purejs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study-css-selector/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-css-selector/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study-html-content-model/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-html-content-model/.idea/workspace.xml" afterDir="false" />
@@ -63,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579608558485</updated>
-      <workItem from="1579608559561" duration="3615000" />
+      <workItem from="1579608559561" duration="4855000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1579611412634</created>
@@ -72,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579611412634</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="implement updateView() such that it shows game statistics">
+      <created>1579612321371</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579612321371</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,17 +89,18 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="implement updateView() such that it shows game statistics" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement updateView() such that it shows game statistics" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1216" y="54" key="CommitChangelistDialog2" timestamp="1579611411967">
+    <state x="-1216" y="54" key="CommitChangelistDialog2" timestamp="1579612320827">
       <screen x="-1280" y="54" width="853" height="683" />
     </state>
-    <state x="-1216" y="54" key="CommitChangelistDialog2/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579611411967" />
-    <state x="-1260" y="133" key="Vcs.Push.Dialog.v2" timestamp="1579611414320">
+    <state x="-1216" y="54" key="CommitChangelistDialog2/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579612320827" />
+    <state x="-1260" y="133" key="Vcs.Push.Dialog.v2" timestamp="1579612322585">
       <screen x="-1280" y="54" width="853" height="683" />
     </state>
-    <state x="-1260" y="133" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579611414320" />
+    <state x="-1260" y="133" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579612322585" />
   </component>
 </project>

@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61982b10-57da-43b9-9684-76a27b545edb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mastermind-ko.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/game.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lib/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lib/jquery-1.11.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lib/knockout-3.5.1.debug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/number-util.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../study-html-content-model/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mastermind-jquery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mastermind-jquery/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mastermind-purejs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mastermind-purejs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study-css-selector/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-css-selector/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study-html-content-model/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-html-content-model/.idea/workspace.xml" afterDir="false" />
@@ -84,8 +63,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579673635847</updated>
-      <workItem from="1579673636931" duration="4724000" />
+      <workItem from="1579673636931" duration="5385000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1579678420528</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579678420528</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,5 +80,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1216" y="54" key="CommitChangelistDialog2" timestamp="1579678419824">
+      <screen x="-1280" y="54" width="853" height="683" />
+    </state>
+    <state x="-1216" y="54" key="CommitChangelistDialog2/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579678419824" />
+    <state x="-1260" y="133" key="Vcs.Push.Dialog.v2" timestamp="1579678423816">
+      <screen x="-1280" y="54" width="853" height="683" />
+    </state>
+    <state x="-1260" y="133" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579678423816" />
   </component>
 </project>

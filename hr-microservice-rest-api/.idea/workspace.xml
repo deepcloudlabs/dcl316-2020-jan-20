@@ -2,51 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fdb30b0-707a-446b-b40c-329ff9eb373b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/hr/HrMicroserviceRestApiApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/hr/config/SwaggerConfig$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/hr/config/SwaggerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/hr/controller/EmployeeRestController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/hr/entity/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/hr/entity/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/hr/repository/EmployeeRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/hr/service/EmployeeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/hibernate.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/hr/HrMicroserviceRestApiApplicationTests.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../study-html-content-model/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hr-frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hr-frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hr-frontend/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hr-frontend/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hr-frontend/js/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hr-frontend/js/hr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_10_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_3_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-microservice-rest-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-microservice-rest-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/hr/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/hr/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/hr/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/hr/repository/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/hr/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/hr/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mastermind-jquery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mastermind-jquery/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mastermind-ko/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mastermind-ko/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mastermind-purejs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mastermind-purejs/.idea/workspace.xml" afterDir="false" />
@@ -157,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579681467347</updated>
-      <workItem from="1579681470102" duration="24529000" />
+      <workItem from="1579681470102" duration="24663000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1579691027627</created>
@@ -194,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579764342732</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change database from mysql to mongodb">
+      <created>1579854208587</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579854208587</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +172,8 @@
     <MESSAGE value="format the codes and remove the warnings" />
     <MESSAGE value="convert IllegalArgumentException to Business Exception" />
     <MESSAGE value="implement server side validation using bean validation specification" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement server side validation using bean validation specification" />
+    <MESSAGE value="change database from mysql to mongodb" />
+    <option name="LAST_COMMIT_MESSAGE" value="change database from mysql to mongodb" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -228,67 +193,67 @@
       <screen x="-1280" y="54" width="853" height="683" />
     </state>
     <state x="-1050" y="266" width="394" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579762991910" />
-    <state x="288" y="145" key="CommitChangelistDialog2" timestamp="1579764342085">
+    <state x="288" y="145" width="1353" height="894" key="CommitChangelistDialog2" timestamp="1579854207778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="288" y="145" key="CommitChangelistDialog2/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579764342085" />
+    <state x="288" y="145" width="1353" height="894" key="CommitChangelistDialog2/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579854207778" />
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1280.54.853.683@0.0.1920.1040" timestamp="1579758880634" />
-    <state width="810" height="321" key="GridCell.Tab.0.bottom" timestamp="1579853564067">
+    <state width="810" height="321" key="GridCell.Tab.0.bottom" timestamp="1579854304531">
       <screen x="-1280" y="54" width="853" height="683" />
     </state>
-    <state width="810" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579853564067" />
+    <state width="810" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579854304531" />
     <state width="1877" height="329" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.54.853.683@0.0.1920.1040" timestamp="1579758364405" />
     <state width="1877" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579749962522" />
-    <state width="810" height="321" key="GridCell.Tab.0.center" timestamp="1579853564067">
+    <state width="810" height="321" key="GridCell.Tab.0.center" timestamp="1579854304531">
       <screen x="-1280" y="54" width="853" height="683" />
     </state>
-    <state width="810" height="321" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579853564067" />
+    <state width="810" height="321" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579854304531" />
     <state width="1877" height="329" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.54.853.683@0.0.1920.1040" timestamp="1579758364405" />
     <state width="1877" height="246" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579749962522" />
-    <state width="810" height="321" key="GridCell.Tab.0.left" timestamp="1579853564067">
+    <state width="810" height="321" key="GridCell.Tab.0.left" timestamp="1579854304531">
       <screen x="-1280" y="54" width="853" height="683" />
     </state>
-    <state width="810" height="321" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579853564067" />
+    <state width="810" height="321" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579854304531" />
     <state width="1877" height="329" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.54.853.683@0.0.1920.1040" timestamp="1579758364405" />
     <state width="1877" height="246" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579749962522" />
-    <state width="810" height="321" key="GridCell.Tab.0.right" timestamp="1579853564067">
+    <state width="810" height="321" key="GridCell.Tab.0.right" timestamp="1579854304531">
       <screen x="-1280" y="54" width="853" height="683" />
     </state>
-    <state width="810" height="321" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579853564067" />
+    <state width="810" height="321" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579854304531" />
     <state width="1877" height="329" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.54.853.683@0.0.1920.1040" timestamp="1579758364405" />
     <state width="1877" height="246" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579749962522" />
-    <state width="810" height="321" key="GridCell.Tab.1.bottom" timestamp="1579853564067">
+    <state width="810" height="321" key="GridCell.Tab.1.bottom" timestamp="1579854304531">
       <screen x="-1280" y="54" width="853" height="683" />
     </state>
-    <state width="810" height="321" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579853564067" />
+    <state width="810" height="321" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579854304531" />
     <state width="1877" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1280.54.853.683@0.0.1920.1040" timestamp="1579758364406" />
     <state width="1877" height="246" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579749962523" />
-    <state width="810" height="321" key="GridCell.Tab.1.center" timestamp="1579853564067">
+    <state width="810" height="321" key="GridCell.Tab.1.center" timestamp="1579854304531">
       <screen x="-1280" y="54" width="853" height="683" />
     </state>
-    <state width="810" height="321" key="GridCell.Tab.1.center/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579853564067" />
+    <state width="810" height="321" key="GridCell.Tab.1.center/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579854304531" />
     <state width="1877" height="329" key="GridCell.Tab.1.center/0.0.1920.1040/-1280.54.853.683@0.0.1920.1040" timestamp="1579758364405" />
     <state width="1877" height="246" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579749962523" />
-    <state width="810" height="321" key="GridCell.Tab.1.left" timestamp="1579853564067">
+    <state width="810" height="321" key="GridCell.Tab.1.left" timestamp="1579854304531">
       <screen x="-1280" y="54" width="853" height="683" />
     </state>
-    <state width="810" height="321" key="GridCell.Tab.1.left/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579853564067" />
+    <state width="810" height="321" key="GridCell.Tab.1.left/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579854304531" />
     <state width="1877" height="329" key="GridCell.Tab.1.left/0.0.1920.1040/-1280.54.853.683@0.0.1920.1040" timestamp="1579758364405" />
     <state width="1877" height="246" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579749962522" />
-    <state width="810" height="321" key="GridCell.Tab.1.right" timestamp="1579853564067">
+    <state width="810" height="321" key="GridCell.Tab.1.right" timestamp="1579854304531">
       <screen x="-1280" y="54" width="853" height="683" />
     </state>
-    <state width="810" height="321" key="GridCell.Tab.1.right/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579853564067" />
+    <state width="810" height="321" key="GridCell.Tab.1.right/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579854304531" />
     <state width="1877" height="329" key="GridCell.Tab.1.right/0.0.1920.1040/-1280.54.853.683@0.0.1920.1040" timestamp="1579758364405" />
     <state width="1877" height="246" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579749962523" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1579749788540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579749788540" />
-    <state x="-1260" y="133" key="Vcs.Push.Dialog.v2" timestamp="1579764345723">
+    <state x="-1260" y="133" key="Vcs.Push.Dialog.v2" timestamp="1579854211429">
       <screen x="-1280" y="54" width="853" height="683" />
     </state>
-    <state x="-1260" y="133" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579764345723" />
+    <state x="-1260" y="133" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579854211429" />
     <state x="45" y="120" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.54.853.683@0.0.1920.1040" timestamp="1579758882897" />
     <state x="-1280" y="54" width="591" height="683" key="find.popup" timestamp="1579762558306">
       <screen x="-1280" y="54" width="853" height="683" />
