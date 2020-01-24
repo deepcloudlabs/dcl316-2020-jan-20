@@ -7,7 +7,6 @@ import com.example.hr.exception.ErrorCode;
 import com.example.hr.repository.EmployeeRepository;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -37,7 +36,6 @@ public class EmployeeService {
         return employeeRepository.findAll(PageRequest.of(page, size)).getContent();
     }
 
-    @Transactional
     public void createEmployee(Employee employee) {
         String identity = employee.getIdentity();
         if (employeeRepository.existsById(identity)) {
@@ -50,7 +48,6 @@ public class EmployeeService {
         employeeRepository.save(employee);
     }
 
-    @Transactional
     public void updateEmployee(Employee employee) {
         String identity = employee.getIdentity();
         if (!employeeRepository.existsById(identity)) {
@@ -65,9 +62,9 @@ public class EmployeeService {
         managed.setFulltime(employee.isFulltime());
         managed.setSalary(employee.getSalary());
         managed.setIban(employee.getIban());
+        employeeRepository.save(managed);
     }
 
-    @Transactional
     public Employee removeByIdentity(String identity) {
         Employee employee = employeeRepository.findById(identity).orElseThrow(
                 () -> new EmployeeNotFoundException(

@@ -2,9 +2,9 @@ package com.example.hr.entity;
 
 import com.example.hr.validation.Iban;
 import com.example.hr.validation.TcKimlikNo;
-import org.hibernate.annotations.DynamicUpdate;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-import javax.persistence.*;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 import java.util.Objects;
@@ -12,26 +12,21 @@ import java.util.Objects;
 /**
  * @author Binnur Kurt <binnur.kurt@gmail.com>
  */
-@Entity
-@Table(name = "employees")
-@DynamicUpdate
+@Document(collection = "employees")
 public class Employee {
     @Id
     @TcKimlikNo
     private String identity;
-    @Column(name = "full_name")
     @Size(min = 3)
     private String fullname;
     @Min(3000)
     private double salary;
     @Iban
     private String iban;
-    @Lob
-    @Column(columnDefinition = "longblob")
-    private byte[] photo;
+    private String photo;
     private int birthYear;
     private boolean fulltime;
-    @Enumerated(EnumType.STRING)
+
     private Department department;
 
     public Employee() {
@@ -78,11 +73,11 @@ public class Employee {
         this.iban = iban;
     }
 
-    public byte[] getPhoto() {
+    public String getPhoto() {
         return photo;
     }
 
-    public void setPhoto(byte[] photo) {
+    public void setPhoto(String photo) {
         this.photo = photo;
     }
 
