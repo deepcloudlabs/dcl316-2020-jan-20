@@ -25,6 +25,23 @@ class HrViewModel {
         //endregion
     }
 
+    changeLngTr = () => {
+        this.changeLng('tr');
+    }
+    changeLngEn = () => {
+        this.changeLng('en');
+    }
+    i18n = () => {
+        $(document).i18n();
+    }
+    changeLng = (lng) => {
+        i18n.setLng(lng, (t) => {
+            this.i18n();
+            knockoutLocalize(lng);
+            this.employee.validateEmployee();
+        })
+    }
+
     copyRow = (emp) => {
         this.employee.update(emp);
         this.fileData().dataUrl(emp.photo);
@@ -85,6 +102,7 @@ class HrViewModel {
                         emp => emp.photo = toSrcImage(emp.photo)
                     )
                 this.employees(employees);
+                this.i18n();
                 toastr.success(`${employees.length} employees are retrieved from the server.`)
                 }
             )

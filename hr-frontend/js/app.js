@@ -1,9 +1,14 @@
 let hrViewModel = new HrViewModel();
 $(
     () => {
-        toastr.options = AppConfig.TOASTR_CONFIG;
-        knockoutLocalize('tr');
-        ko.applyBindings(hrViewModel);
-        hrViewModel.employee.validateEmployee();
+        i18n.init(
+            AppConfig.I18N_CONFIG,
+            (t) => {
+                toastr.options = AppConfig.TOASTR_CONFIG;
+                knockoutLocalize('en');
+                ko.applyBindings(hrViewModel);
+                hrViewModel.employee.validateEmployee();
+            }
+        )
     }
 );
