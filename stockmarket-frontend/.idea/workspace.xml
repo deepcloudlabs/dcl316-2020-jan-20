@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69c42c2f-2e02-462c-827c-9a46cd537340" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/toastr.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lib/Chart.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lib/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lib/i18next-1.7.7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lib/jquery-1.11.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lib/knockout-3.4.2.debug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lib/ko-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lib/sockjs-0.3.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lib/stomp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lib/toastr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/monitor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/translation-en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/translation-tr.json" afterDir="false" />
+    <list default="true" id="69c42c2f-2e02-462c-827c-9a46cd537340" name="Default" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/monitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/monitor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stockmarket-microservice-backend/src/main/java/com/example/market/config/WebsocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stockmarket-microservice-backend/src/main/java/com/example/market/config/WebsocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stockmarket-microservice-backend/src/main/java/com/example/market/controller/MarketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stockmarket-microservice-backend/src/main/java/com/example/market/controller/MarketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stockmarket-microservice-backend/src/main/java/com/example/market/document/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stockmarket-microservice-backend/src/main/java/com/example/market/document/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stockmarket-microservice-backend/src/main/java/com/example/market/document/OrderSide.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stockmarket-microservice-backend/src/main/java/com/example/market/document/OrderSide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stockmarket-microservice-backend/src/main/java/com/example/market/document/OrderType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stockmarket-microservice-backend/src/main/java/com/example/market/document/OrderType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stockmarket-microservice-backend/src/main/java/com/example/market/document/Trade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stockmarket-microservice-backend/src/main/java/com/example/market/document/Trade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stockmarket-microservice-backend/src/main/java/com/example/market/service/MarketDataEmulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stockmarket-microservice-backend/src/main/java/com/example/market/service/MarketDataEmulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stockmarket-microservice-backend/src/main/java/com/example/market/service/MarketDataWebSocketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stockmarket-microservice-backend/src/main/java/com/example/market/service/MarketDataWebSocketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stockmarket-microservice-backend/src/main/java/com/example/market/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stockmarket-microservice-backend/src/main/java/com/example/market/service/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +48,6 @@
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="886" />
   </component>
   <component name="ProjectId" id="1Wq85ejvIw6E3HU3Rbmxf3XUhp8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -128,17 +108,41 @@
       <updated>1506080452274</updated>
       <workItem from="1506080453625" duration="8512000" />
       <workItem from="1508479018408" duration="837000" />
-      <workItem from="1579865583621" duration="3672000" />
+      <workItem from="1579865583621" duration="6846000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1579869320661</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579869320661</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="279" y="144" width="1344" height="683" key="CommitChangelistDialog2" timestamp="1579869320135">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="279" y="144" width="1344" height="683" key="CommitChangelistDialog2/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579869320135" />
     <state x="-1280" y="54" key="SettingsEditor" timestamp="1579866480775">
       <screen x="-1280" y="54" width="853" height="683" />
     </state>
     <state x="-1280" y="54" key="SettingsEditor/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579866480775" />
+    <state x="-1260" y="133" key="Vcs.Push.Dialog.v2" timestamp="1579869322705">
+      <screen x="-1280" y="54" width="853" height="683" />
+    </state>
+    <state x="-1260" y="133" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.54.853.683@-1280.54.853.683" timestamp="1579869322705" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1579943275442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579943275442" />
   </component>
 </project>

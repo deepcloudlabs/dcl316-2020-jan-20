@@ -22,45 +22,32 @@
     <script type="text/javascript" src="js/monitor.js"></script>
 </head>
 <body>
-<p />
+<p/>
 <div class="container">
     <div class="panel panel-primary">
         <div class="panel-heading">
             <h3 class="panel-title" data-i18n="panelTitleDashboard"></h3>
-            <button data-bind="click: changeLng('tr')"
-                    class="btn btn-info"
-                    data-i18n="buttonTurkish"></button>
-            <button data-bind="click: changeLng('en')"
-                    class="btn btn-warning"
-                    data-i18n="buttonEnglish"></button>
+            <button data-bind="click: changeLng('tr')" class="btn btn-info" data-i18n="buttonTurkish"></button>
+            <button data-bind="click: changeLng('en')" class="btn btn-warning" data-i18n="buttonEnglish"></button>
         </div>
         <div class="panel-body">
             <div class="form-group">
                 <label for="symbol" data-i18n="labelSymbol"></label>
-                <select id="symbol"
-                        data-bind="enable: !isMonitoring(), options: currencies,
-                                   optionsText: 'name',
-                                   value: symbol,
-                                   optionsValue: 'symbol',
-                                   optionsCaption: translate('optionChoose')"
+                <select id="symbol" data-bind="enable: !isMonitoring(), options: symbols, value: symbol"
                         class="form-control"></select>
             </div>
             <div class="form-group">
                 <label for="windowSize" data-i18n="labelWindowSize"></label>
-                <select id="windowSize"
-                        data-bind="value: windowSize"
-                        class="form-control">
+                <select id="windowSize" data-bind="value: windowSize" class="form-control">
                     <option label="10" value="10">10</option>
                     <option label="25" value="25">25</option>
                     <option label="50" value="50">50</option>
                 </select>
             </div>
             <div class="form-group">
-                <button class="btn btn-success"
-                        data-i18n="buttonStart"
+                <button class="btn btn-success" data-i18n="buttonStart"
                         data-bind="visible: connected() && ! isMonitoring(), click: start"></button>
-                <button class="btn btn-danger"
-                        data-i18n="buttonStop"
+                <button class="btn btn-danger" data-i18n="buttonStop"
                         data-bind="visible: connected() && isMonitoring(), click: stop"></button>
             </div>
         </div>
