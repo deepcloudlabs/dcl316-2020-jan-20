@@ -5,6 +5,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Objects;
 
+/**
+ * @author Binnur Kurt <binnur.kurt@gmail.com>
+ */
 @Document(collection = "orders")
 public class Order {
     @Id

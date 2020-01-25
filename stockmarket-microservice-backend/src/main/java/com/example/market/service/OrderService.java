@@ -7,21 +7,26 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;
 
+/**
+ * @author Binnur Kurt <binnur.kurt@gmail.com>
+ */
 @Service
 public class OrderService {
-    @Autowired
-    private ApplicationEventPublisher aep;
-    @Autowired
+    private ApplicationEventPublisher eventPublisher;
     private OrderRepository orderRepository;
 
+    public OrderService(ApplicationEventPublisher eventPublisher, OrderRepository orderRepository) {
+        this.eventPublisher = eventPublisher;
+        this.orderRepository = orderRepository;
+    }
+
     public Order sendOrder(Order order) {
-        Order savedOrder =
-                orderRepository.save(order);
+        Order savedOrder = orderRepository.save(order);
         Trade trade = new Trade();
         trade.setSymbol(order.getSymbol());
         trade.setPrice(order.getPrice());
         trade.setQuantity(order.getQuantity());
-        aep.publishEvent(trade);
+        eventPublisher.publishEvent(trade);
         return savedOrder;
     }
 }
